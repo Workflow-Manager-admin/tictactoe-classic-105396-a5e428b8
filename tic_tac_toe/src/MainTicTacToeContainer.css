@@ -1,0 +1,19 @@
+.ttt-main-container {
+  /* Additional styles can be set inline for now to support color overrides */
+}
+
+/* Board grid is styled inline, but you can put any necessary global tweaks here */
+.ttt-board {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Cell button for clear, minimal style and separation */
+.ttt-cell {
+  transition: background 0.15s;
+  outline: none;
+}
+
+.ttt-cell:focus {
+  background: #f7fafb;
+}
